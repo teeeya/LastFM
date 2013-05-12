@@ -20,7 +20,7 @@
         "type": "id",
         "value": "username"
       },
-      "text": "teeeya"
+      "text": ""
     },
     {
       "type": "sendKeysToElement",
@@ -28,7 +28,7 @@
         "type": "id",
         "value": "password"
       },
-      "text": "monk3y"
+      "text": ""
     },
     {
       "type": "clickElement",
