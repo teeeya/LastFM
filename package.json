@@ -1,0 +1,13 @@
+{
+  "name": "lastfm",
+  "description": "lastfm",
+  "homepage": "http://www.lastfm.com",
+  "author": "Fathea Chowdhury",
+  "version": "0.0.1",
+  "dependencies": {
+    "underscore": "*",
+    "wd": "*",
+    "path": "*",
+    "uuid-js": "*"
+  }
+}
