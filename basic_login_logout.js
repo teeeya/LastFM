@@ -19,9 +19,9 @@ b.init({
 .then(function(el) { return b.clickElement(el); })
 .then(function () {return b.waitForVisibleByName("username", 5000); })
 .then(function () { return b.elementById("username"); })
-.then(function (el) { return b.type(el, "teeeya"); }) //add your username
+.then(function (el) { return b.type(el, "username"); }) //add your username
 .then(function () { return b.elementById("password"); })
-.then(function (el) { return b.type(el, "monk3y"); })//add your password
+.then(function (el) { return b.type(el, "passwprd"); })//add your password
 .then(function () { return b.elementByName("login"); })
 .then(function (el) { return b.clickElement(el); })
 .then(function (){ return b.waitForVisibleByXPath("//*[@id='homeHead']/h1/a", 5000); })
